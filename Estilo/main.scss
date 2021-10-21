@@ -1,0 +1,243 @@
+h1 {
+
+    text-align: center;
+    font-family: Brush Script MT;
+    font-size: 70px;
+    margin-top: 70px;
+}
+
+.header {
+    
+    position: fixed;
+    width: 100%;
+    
+    top: 0;
+
+    nav ul {
+        background-color: cadetblue;
+        margin: 0;
+        list-style: none;
+        padding: 0;
+        display: flex;
+
+
+        li {
+            border-right: 1px solid white;
+
+            :hover {
+                background-color: rgb(14, 145, 150);
+            }
+        }
+
+        a {
+            display: block;
+            padding: 15px 20px;
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+        }
+
+
+
+    }
+}
+
+
+.main {
+
+    .asd {
+        object-fit: cover;
+    }
+
+
+    .carousel-inner{
+        
+        margin: auto;
+        margin-top: 150px;
+        margin-bottom: 190px;
+        width: 80%;
+        height: 90vh;
+    }
+
+
+    
+
+    .active{
+        background-color: rgb(250, 250, 250);
+    }
+
+
+    
+}
+
+
+.nosotros{
+    
+    margin-top: -100px;
+    
+
+    .nosotros__img{
+        width: 470px;
+        height: 650px;
+        margin-left: 400px;
+        object-fit: cover;
+    }
+
+    .nosotros__text{
+        text-align: justify;
+        margin-left: 920px;
+        margin-right: 510px;
+        margin-bottom: -260px;
+        position: relative;
+        top: -560px;
+        font-family: Perpetua;
+        font-size: 25px;
+        word-spacing: 6px;
+    }
+
+    .nosotrosboton{
+        margin-left: 918px;
+        margin-top: -550px;
+    }
+}
+
+.section{
+    border: solid;
+    margin-left: 20px;
+    margin-bottom: 100px;
+
+    .section__img1{
+        margin-top: 100px;
+        width: 350px ;
+        height: 260px;
+        object-fit: cover;
+
+    }
+
+    .section__img2{
+        margin-top: 130px;
+        width: 350px;
+        height: 260px;
+        object-fit: cover;
+    }
+
+    .section__img3{
+        margin-top: -1067px;
+        margin-left: 950px;
+        width: 350px;
+        height: 260px;
+        object-fit: cover;
+        
+
+    }
+
+    .section__img4 {
+        margin-top: -340px;
+        margin-left: 950px;
+        width: 350px;
+        height: 260px;
+        object-fit: cover;
+
+    }
+
+    .noticiastexto1{
+        
+        margin-top: -250px;
+        margin-left: 370px;
+        margin-right: 1000px;
+    }
+
+}
+
+
+.footer{
+    
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(95, 158, 160));;
+    padding: 100px;
+    
+    
+
+    .footer__text{
+        
+        margin-right: 800px;
+        font-family: Perpetua;
+        font-size: 70px;
+    }
+
+    .formulario{
+        
+        margin-left: 900px;
+        margin-top: -183px;
+        margin-right: 300px;
+    }
+
+    .formulario__nombre{
+        position: relative;
+        left: 170px;
+        top: 20px;
+    }
+
+    .formulario__nombre__cuadrado{
+        position: relative;
+        top: 25px;
+        left: 22px;
+        padding-right: 260px;
+    }
+
+    .formulario__mail{
+        position: relative;
+        top: 70px;
+        left: 220px;
+    }
+
+    .formulario__mail__cuadrado{
+        position: relative;
+        top: 100px;
+        right: 10px;
+        padding-right: 260px;
+
+    }
+
+    .enviar{
+        margin-top: 160px;
+        margin-left: 332px;
+    }
+}
+
+/*------------------------------------------------------------------------------------Nosotros--------------------------------------------------------------------------------------------------*/
+
+
+.mainN {
+    
+   
+    margin-right: 180px;
+    margin-left: 180px;
+
+    .textnos{
+        
+        text-align: justify;
+        margin-left: 600px;
+        margin-right: 200px;
+        word-spacing: 6px;
+        position: relative;
+        top: 360px;
+        font-family: Perpetua;
+        font-size: 25px;
+
+    }
+
+
+    .imgnos1{
+        width: 470px;
+        height: 750px;
+        margin-top: -310px ;
+        padding: 5px;
+        object-fit: cover;
+    }
+
+    .imgnos2{
+        width: 1470px;
+        height: 200px;
+        padding: 5px;
+        object-fit: cover;
+    }
+}

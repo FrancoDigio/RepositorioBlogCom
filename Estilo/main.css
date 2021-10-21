@@ -1,0 +1,213 @@
+h1 {
+  text-align: center;
+  font-family: Brush Script MT;
+  font-size: 70px;
+  margin-top: 70px;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.header nav ul {
+  background-color: cadetblue;
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header nav ul li {
+  border-right: 1px solid white;
+}
+
+.header nav ul li :hover {
+  background-color: #0e9196;
+}
+
+.header nav ul a {
+  display: block;
+  padding: 15px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.main .asd {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.main .carousel-inner {
+  margin: auto;
+  margin-top: 150px;
+  margin-bottom: 190px;
+  width: 80%;
+  height: 90vh;
+}
+
+.main .active {
+  background-color: #fafafa;
+}
+
+.nosotros {
+  margin-top: -100px;
+}
+
+.nosotros .nosotros__img {
+  width: 470px;
+  height: 650px;
+  margin-left: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.nosotros .nosotros__text {
+  text-align: justify;
+  margin-left: 920px;
+  margin-right: 510px;
+  margin-bottom: -260px;
+  position: relative;
+  top: -560px;
+  font-family: Perpetua;
+  font-size: 25px;
+  word-spacing: 6px;
+}
+
+.nosotros .nosotrosboton {
+  margin-left: 918px;
+  margin-top: -550px;
+}
+
+.section {
+  border: solid;
+  margin-left: 20px;
+  margin-bottom: 100px;
+}
+
+.section .section__img1 {
+  margin-top: 100px;
+  width: 350px;
+  height: 260px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.section .section__img2 {
+  margin-top: 130px;
+  width: 350px;
+  height: 260px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.section .section__img3 {
+  margin-top: -1067px;
+  margin-left: 950px;
+  width: 350px;
+  height: 260px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.section .section__img4 {
+  margin-top: -340px;
+  margin-left: 950px;
+  width: 350px;
+  height: 260px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.section .noticiastexto1 {
+  margin-top: -250px;
+  margin-left: 370px;
+  margin-right: 1000px;
+}
+
+.footer {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(cadetblue));
+  background-image: linear-gradient(white, cadetblue);
+  padding: 100px;
+}
+
+.footer .footer__text {
+  margin-right: 800px;
+  font-family: Perpetua;
+  font-size: 70px;
+}
+
+.footer .formulario {
+  margin-left: 900px;
+  margin-top: -183px;
+  margin-right: 300px;
+}
+
+.footer .formulario__nombre {
+  position: relative;
+  left: 170px;
+  top: 20px;
+}
+
+.footer .formulario__nombre__cuadrado {
+  position: relative;
+  top: 25px;
+  left: 22px;
+  padding-right: 260px;
+}
+
+.footer .formulario__mail {
+  position: relative;
+  top: 70px;
+  left: 220px;
+}
+
+.footer .formulario__mail__cuadrado {
+  position: relative;
+  top: 100px;
+  right: 10px;
+  padding-right: 260px;
+}
+
+.footer .enviar {
+  margin-top: 160px;
+  margin-left: 332px;
+}
+
+/*------------------------------------------------------------------------------------Nosotros--------------------------------------------------------------------------------------------------*/
+.mainN {
+  margin-right: 180px;
+  margin-left: 180px;
+}
+
+.mainN .textnos {
+  text-align: justify;
+  margin-left: 600px;
+  margin-right: 200px;
+  word-spacing: 6px;
+  position: relative;
+  top: 360px;
+  font-family: Perpetua;
+  font-size: 25px;
+}
+
+.mainN .imgnos1 {
+  width: 470px;
+  height: 750px;
+  margin-top: -310px;
+  padding: 5px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.mainN .imgnos2 {
+  width: 1470px;
+  height: 200px;
+  padding: 5px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=main.css.map */
