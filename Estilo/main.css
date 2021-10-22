@@ -79,12 +79,13 @@ h1 {
   word-spacing: 6px;
 }
 
-.nosotros .nosotrosboton {
+.nosotros .boton-nosotros {
   margin-left: 918px;
   margin-top: -550px;
 }
 
 .section {
+  padding: 0px 80px;
   margin-left: 20px;
   margin-bottom: 100px;
 }
@@ -119,7 +120,7 @@ h1 {
 
 .section .section__img4 {
   border: solid;
-  margin-top: -198px;
+  margin-top: -108px;
   margin-left: 950px;
   width: 350px;
   height: 260px;
@@ -149,52 +150,24 @@ h1 {
 }
 
 .footer {
-  border: solid;
-  background-color: #7ebcbe;
-  padding: 100px;
+  padding-bottom: 20px;
+  margin-top: 200px;
+  background-color: #9acfd1;
+  padding: 90px;
 }
 
 .footer .footer__text {
+  margin-bottom: -240px;
+  margin-top: -50px;
   margin-right: 800px;
   font-family: Perpetua;
-  font-size: 70px;
+  font-size: 50px;
 }
 
 .footer .formulario {
   margin-left: 900px;
-  margin-top: -183px;
+  margin-top: 129px;
   margin-right: 300px;
-}
-
-.footer .formulario__nombre {
-  position: relative;
-  left: 170px;
-  top: 20px;
-}
-
-.footer .formulario__nombre__cuadrado {
-  position: relative;
-  top: 25px;
-  left: 22px;
-  padding-right: 260px;
-}
-
-.footer .formulario__mail {
-  position: relative;
-  top: 70px;
-  left: 220px;
-}
-
-.footer .formulario__mail__cuadrado {
-  position: relative;
-  top: 100px;
-  right: 10px;
-  padding-right: 260px;
-}
-
-.footer .enviar {
-  margin-top: 160px;
-  margin-left: 332px;
 }
 
 /*------------------------------------------------------------------------------------Nosotros--------------------------------------------------------------------------------------------------*/

@@ -71,28 +71,24 @@
 
 
     <!-------------------------------------------------------------------------------------footer---------------------------------------------------------------------------------------------->
-    <footer class="footer">
-      <h3 class="footer__text">¡Suscríbete para recibir las últimas noticias del blog!</h3>
-      
-      <form class="formulario">
-        <fieldset>
-            
-            <div>
-                <LAbel class="formulario__nombre" for="memberData">Nombre y Apellido</LAbel>
-                <input class="formulario__nombre__cuadrado" type="text" name="memberData" id="memberData" placeholder="Escriba Nombre y Apellido" required>
-            </div>
-               <div>
-                <LAbel class="formulario__mail" for="memberMail">Mail</LAbel>
-                <input class="formulario__mail__cuadrado" type="text" name="memberMail" id="memberMail" placeholder="Escriba su Mail" required>
-            </div>
-           <div class="enviar">
-                <input  type="reset" value="Resetear">
-                <input  type="submit" value="Enviar">
-            </div>
-                
-        </fieldset>
-    </form>
+  <footer class="footer">
+    <h3 class="footer__text">
+      ¡Suscríbete para recibir las últimas noticias del blog!
+    </h3>
 
+    <form class="formulario">
+
+      
+          <div class="input-group flex-nowrap">
+            <span class="input-group-text mb-2" id="addon-wrapping">Nombre y Apelldio</span>
+            <input type="text" class="form-control mb-2" placeholder="Nombre Y Apellido" aria-label="Username" aria-describedby="addon-wrapping">
+          </div>
+          <div class="input-group flex-nowrap">
+              <span class="input-group-text mb-2" id="addon-wrapping">Email</span>
+              <input type="text" class="form-control mb-2" placeholder="Email" aria-label="Username" aria-describedby="addon-wrapping">
+          </div>
+          <button class="btn btn-primary mt-2" type="submit">Enviar</button>
+          <input class="btn btn-primary mt-2 ms-2" type="reset" value="Cancelar">
   </footer>
 
     
