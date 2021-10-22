@@ -42,6 +42,7 @@ h1 {
 }
 
 .main .carousel-inner {
+  z-index: -1;
   margin: auto;
   margin-top: 150px;
   margin-bottom: 190px;
@@ -66,6 +67,7 @@ h1 {
 }
 
 .nosotros .nosotros__text {
+  z-index: -1;
   text-align: justify;
   margin-left: 920px;
   margin-right: 510px;
@@ -148,8 +150,7 @@ h1 {
 
 .footer {
   border: solid;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(cadetblue));
-  background-image: linear-gradient(white, cadetblue);
+  background-color: #7ebcbe;
   padding: 100px;
 }
 
