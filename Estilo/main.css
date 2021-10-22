@@ -83,12 +83,12 @@ h1 {
 }
 
 .section {
-  border: solid;
   margin-left: 20px;
   margin-bottom: 100px;
 }
 
 .section .section__img1 {
+  border: solid;
   margin-top: 100px;
   width: 350px;
   height: 260px;
@@ -97,6 +97,7 @@ h1 {
 }
 
 .section .section__img2 {
+  border: solid;
   margin-top: 130px;
   width: 350px;
   height: 260px;
@@ -105,7 +106,8 @@ h1 {
 }
 
 .section .section__img3 {
-  margin-top: -1067px;
+  border: solid;
+  margin-top: -938px;
   margin-left: 950px;
   width: 350px;
   height: 260px;
@@ -114,7 +116,8 @@ h1 {
 }
 
 .section .section__img4 {
-  margin-top: -340px;
+  border: solid;
+  margin-top: -198px;
   margin-left: 950px;
   width: 350px;
   height: 260px;
@@ -126,9 +129,25 @@ h1 {
   margin-top: -250px;
   margin-left: 370px;
   margin-right: 1000px;
+  font-size: 18px;
+}
+
+.section .noticiastexto3 {
+  margin-right: 50px;
+  margin-top: -595px;
+  margin-left: 1320px;
+  font-size: 18px;
+}
+
+.section .noticiastexto4 {
+  margin-right: 50px;
+  margin-top: -251px;
+  margin-left: 1320px;
+  font-size: 18px;
 }
 
 .footer {
+  border: solid;
   background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(cadetblue));
   background-image: linear-gradient(white, cadetblue);
   padding: 100px;
