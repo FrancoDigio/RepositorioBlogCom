@@ -177,6 +177,7 @@ h1 {
 }
 
 .mainN .textnos {
+  z-index: -1;
   text-align: justify;
   margin-left: 600px;
   margin-right: 200px;
