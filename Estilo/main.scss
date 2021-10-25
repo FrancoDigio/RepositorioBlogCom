@@ -31,9 +31,10 @@ h1 {
 
         a {
             display: block;
-            padding: 15px 20px;
+            padding: 15px 50px;
             color: rgb(255, 255, 255);
             text-decoration: none;
+            
         }
 
 
@@ -145,8 +146,7 @@ h1 {
     }
 
     .noticiastexto1{
-        
-        margin-top: -250px;
+        margin-top: -270px;
         margin-left: 370px;
         margin-right: 1000px;
         font-size: 18px;
@@ -154,16 +154,18 @@ h1 {
     }
 
     .noticiastexto3{
+        
         margin-right: 50px;
-        margin-top: -595px;
-        margin-left: 1320px;
+        margin-top: -620px;
+        margin-left: 1318px;
         font-size: 18px;
     }
 
     .noticiastexto4{
+        
         margin-right: 50px;
-        margin-top: -251px;
-        margin-left: 1320px;
+        margin-top: -273px;
+        margin-left: 1318px;
         font-size: 18px;
 
     }
@@ -239,3 +241,40 @@ h1 {
         object-fit: cover;
     }
 }
+
+
+
+
+/*------------------------------------------------------------------------------------Recetas--------------------------------------------------------------------------------------------------*/
+
+.mainRec{
+
+    #galeria .col-lg-4 {
+        margin: 0 !important;
+        padding: 25px;
+        
+    }
+
+    #galeria img {
+        object-fit: cover;
+        width: 100%;
+        height: 250px;
+    }
+
+    #galeria img:hover {
+        border: 5px solid white;
+    }
+
+    .card-title{
+        color: black;
+        border: solid;
+        text-align: center;
+        margin-top: 100px;
+        font-size: 30px;
+    }
+
+    
+
+}
+
+

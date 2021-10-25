@@ -31,7 +31,7 @@ h1 {
 
 .header nav ul a {
   display: block;
-  padding: 15px 20px;
+  padding: 15px 50px;
   color: white;
   text-decoration: none;
 }
@@ -129,7 +129,7 @@ h1 {
 }
 
 .section .noticiastexto1 {
-  margin-top: -250px;
+  margin-top: -270px;
   margin-left: 370px;
   margin-right: 1000px;
   font-size: 18px;
@@ -137,15 +137,15 @@ h1 {
 
 .section .noticiastexto3 {
   margin-right: 50px;
-  margin-top: -595px;
-  margin-left: 1320px;
+  margin-top: -620px;
+  margin-left: 1318px;
   font-size: 18px;
 }
 
 .section .noticiastexto4 {
   margin-right: 50px;
-  margin-top: -251px;
-  margin-left: 1320px;
+  margin-top: -273px;
+  margin-left: 1318px;
   font-size: 18px;
 }
 
@@ -203,5 +203,30 @@ h1 {
   padding: 5px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+/*------------------------------------------------------------------------------------Recetas--------------------------------------------------------------------------------------------------*/
+.mainRec #galeria .col-lg-4 {
+  margin: 0 !important;
+  padding: 25px;
+}
+
+.mainRec #galeria img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 250px;
+}
+
+.mainRec #galeria img:hover {
+  border: 5px solid white;
+}
+
+.mainRec .card-title {
+  color: black;
+  border: solid;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 30px;
 }
 /*# sourceMappingURL=main.css.map */
