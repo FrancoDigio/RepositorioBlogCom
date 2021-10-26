@@ -1,3 +1,4 @@
+/*------------------------------------------------------------------------------------Index--------------------------------------------------------------------------------------------------*/
 h1 {
   text-align: center;
   font-family: Brush Script MT;
@@ -200,28 +201,43 @@ h1 {
      object-fit: cover;
 }
 
-/*------------------------------------------------------------------------------------Recetas--------------------------------------------------------------------------------------------------*/
-.mainRec #galeria .col-lg-4 {
+/*------------------------------------------------------------------------------------Comidas--------------------------------------------------------------------------------------------------*/
+.mainComidas #galeria .col-lg-4 {
   margin: 0 !important;
   padding: 25px;
 }
 
-.mainRec #galeria img {
+.mainComidas #galeria img {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
   height: 250px;
 }
 
-.mainRec #galeria img:hover {
+.mainComidas #galeria img:hover {
   border: 5px solid white;
 }
 
-.mainRec .card-title {
+.mainComidas .card-title {
   color: black;
   border: solid;
   text-align: center;
   margin-top: 100px;
   font-size: 30px;
+}
+
+/*------------------------------------------------------------------------------------Recetas--------------------------------------------------------------------------------------------------*/
+.mainRecetas .imgRecetas {
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 780px;
+  height: 700px;
+}
+
+.sectionText {
+  margin: 50px 600px 50px 600px;
 }
 /*# sourceMappingURL=main.css.map */
