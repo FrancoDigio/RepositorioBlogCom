@@ -146,10 +146,14 @@ h1 {
 }
 
 .footer {
+  position: relative;
+  top: -140px;
   padding-bottom: 20px;
   margin-top: 200px;
   background-color: #9acfd1;
   padding: 90px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(cadetblue), to(#9acfd1));
+  background-image: linear-gradient(cadetblue, #9acfd1);
 }
 
 .footer .footer__text {
@@ -224,6 +228,30 @@ h1 {
   text-align: center;
   margin-top: 100px;
   font-size: 30px;
+}
+
+.mainComidas #btnradio2:checked ~ .row > .platoFuerte {
+  display: none;
+}
+
+.mainComidas #btnradio2:checked ~ .row > .postre {
+  display: none;
+}
+
+.mainComidas #btnradio3:checked ~ .row > .entrada {
+  display: none;
+}
+
+.mainComidas #btnradio3:checked ~ .row > .postre {
+  display: none;
+}
+
+.mainComidas #btnradio4:checked ~ .row > .platoFuerte {
+  display: none;
+}
+
+.mainComidas #btnradio4:checked ~ .row > .entrada {
+  display: none;
 }
 
 /*------------------------------------------------------------------------------------Recetas--------------------------------------------------------------------------------------------------*/
