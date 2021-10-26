@@ -146,8 +146,6 @@ h1 {
 }
 
 .footer {
-  position: relative;
-  top: -140px;
   padding-bottom: 20px;
   margin-top: 200px;
   background-color: #9acfd1;
@@ -252,6 +250,14 @@ h1 {
 
 .mainComidas #btnradio4:checked ~ .row > .entrada {
   display: none;
+}
+
+.mainComidas .btn {
+  padding-left: 130px;
+  padding-right: 130px;
+  color: black;
+  border: solid cadetblue;
+  background-color: cadetblue;
 }
 
 /*------------------------------------------------------------------------------------Recetas--------------------------------------------------------------------------------------------------*/

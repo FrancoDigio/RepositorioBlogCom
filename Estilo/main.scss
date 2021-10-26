@@ -186,8 +186,6 @@ h1 {
 
 
 .footer{
-    position: relative;
-    top: -140px;
     padding-bottom: 20px;
     margin-top:  200px;
     background-color: rgb(154, 207, 209);
@@ -312,7 +310,14 @@ h1 {
 
 
     .btn{
+        padding-left: 130px;
+        padding-right: 130px;
+        color: black;
+        border:solid cadetblue;
         
+        
+            background-color: cadetblue;
+    
     }
 }
 
