@@ -56,13 +56,6 @@ h1 {
 
 
 .main {
-    
-
-    @include tablet {
-        margin-left: 260px;
-        margin-right: -500px;
-    }
-
 
     .carousel-inner{
         z-index: -1;
@@ -79,12 +72,21 @@ h1 {
     }
 
      @include tablet {
-        
+         margin-left: 260px;
+         margin-right: -500px;
+
 
         .carousel-inner {
-            
-            height: 405px;
+            height: 805px;
+            width: 1200px;
         }
+
+        .carousel-indicators {
+
+           margin-right: -70px;
+        }
+
+        
      }
 
   
@@ -129,10 +131,10 @@ h1 {
             margin-left: 240px;
         }
        .nosotros__text{
-
+           margin-top: -80px;
            margin-left: 750px;
            margin-right: 150px;
-
+           font-size: 33px;
            
        }
 
@@ -208,7 +210,7 @@ h1 {
     }
 
 @include tablet {
-    border: solid;
+
     margin-right: -900px;
     margin-left: 200px;
 
@@ -226,21 +228,23 @@ h1 {
 
 
     .noticiastexto1{
-
         margin-left: 370px;
-        margin-right: 550px;
+        margin-right: 250px;
+        font-size: 25px;
     }
 
     .noticiastexto3 {
         margin-left: 370px;
-        margin-right: 550px;
+        margin-right: 250px;
         margin-top: -270px;
+        font-size: 25px;
     }
 
     .noticiastexto4 {
         margin-left: 370px;
-        margin-right: 550px;
+        margin-right: 250px;
         margin-top: -270px;
+        font-size: 25px;
     }
 }
     
@@ -270,6 +274,18 @@ h1 {
         margin-left: 900px;
         margin-top: 129px;
         margin-right: 300px;
+    }
+
+
+    @include tablet {
+
+        margin-right: -900px;
+        
+        .formulario{
+            margin-left: 705px;
+            margin-right: 50px;
+           
+        }
     }
 
     
@@ -310,6 +326,14 @@ h1 {
         padding: 5px;
         object-fit: cover;
     }
+
+
+    @include tablet {
+
+        margin-right: -940px;
+    }
+
+
 }
 
 
@@ -378,6 +402,12 @@ h1 {
         background-color: cadetblue;
     
     }
+
+
+    @include tablet {
+        border: solid;
+        margin-right: -900px;
+    }
 }
 
 
@@ -395,11 +425,20 @@ h1 {
         width: 780px;
         height: 700px;
     }
+
+    @include tablet {
+        margin-right: -500px;
+    }
 }
 
 
 .sectionText {
      margin: 50px 600px 50px 600px;
+
+     @include tablet {
+         margin-right: -260px;
+         margin-left: 240px ;
+     }
 }
 
 

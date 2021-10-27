@@ -44,13 +44,6 @@ h1 {
   text-decoration: none;
 }
 
-@media screen and (max-width: 768px) {
-  .main {
-    margin-left: 260px;
-    margin-right: -500px;
-  }
-}
-
 .main .carousel-inner {
   z-index: -1;
   margin: auto;
@@ -65,8 +58,16 @@ h1 {
 }
 
 @media screen and (max-width: 768px) {
+  .main {
+    margin-left: 260px;
+    margin-right: -500px;
+  }
   .main .carousel-inner {
-    height: 405px;
+    height: 805px;
+    width: 1200px;
+  }
+  .main .carousel-indicators {
+    margin-right: -70px;
   }
 }
 
@@ -109,8 +110,10 @@ h1 {
     margin-left: 240px;
   }
   .nosotros .nosotros__text {
+    margin-top: -80px;
     margin-left: 750px;
     margin-right: 150px;
+    font-size: 33px;
   }
 }
 
@@ -181,7 +184,6 @@ h1 {
 
 @media screen and (max-width: 768px) {
   .section {
-    border: solid;
     margin-right: -900px;
     margin-left: 200px;
   }
@@ -197,17 +199,20 @@ h1 {
   }
   .section .noticiastexto1 {
     margin-left: 370px;
-    margin-right: 550px;
+    margin-right: 250px;
+    font-size: 25px;
   }
   .section .noticiastexto3 {
     margin-left: 370px;
-    margin-right: 550px;
+    margin-right: 250px;
     margin-top: -270px;
+    font-size: 25px;
   }
   .section .noticiastexto4 {
     margin-left: 370px;
-    margin-right: 550px;
+    margin-right: 250px;
     margin-top: -270px;
+    font-size: 25px;
   }
 }
 
@@ -232,6 +237,16 @@ h1 {
   margin-left: 900px;
   margin-top: 129px;
   margin-right: 300px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    margin-right: -900px;
+  }
+  .footer .formulario {
+    margin-left: 705px;
+    margin-right: 50px;
+  }
 }
 
 /*------------------------------------------------------------------------------------Nosotros--------------------------------------------------------------------------------------------------*/
@@ -267,6 +282,12 @@ h1 {
   padding: 5px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .mainN {
+    margin-right: -940px;
+  }
 }
 
 /*------------------------------------------------------------------------------------Comidas--------------------------------------------------------------------------------------------------*/
@@ -326,6 +347,13 @@ h1 {
   background-color: cadetblue;
 }
 
+@media screen and (max-width: 768px) {
+  .mainComidas {
+    border: solid;
+    margin-right: -900px;
+  }
+}
+
 /*------------------------------------------------------------------------------------Recetas--------------------------------------------------------------------------------------------------*/
 .mainRecetas .imgRecetas {
   display: block;
@@ -337,7 +365,20 @@ h1 {
   height: 700px;
 }
 
+@media screen and (max-width: 768px) {
+  .mainRecetas {
+    margin-right: -500px;
+  }
+}
+
 .sectionText {
   margin: 50px 600px 50px 600px;
+}
+
+@media screen and (max-width: 768px) {
+  .sectionText {
+    margin-right: -260px;
+    margin-left: 240px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
