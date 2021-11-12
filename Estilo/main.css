@@ -13,6 +13,16 @@ h1 {
   }
 }
 
+.logo {
+  width: 130px;
+}
+
+.logo1 {
+  width: 130px;
+  position: relative;
+  right: 15px;
+}
+
 .header {
   position: fixed;
   width: 100%;
@@ -216,7 +226,7 @@ h1 {
   }
 }
 
-.footer {
+.divf {
   padding-bottom: 20px;
   margin-top: 200px;
   background-color: #9acfd1;
@@ -225,7 +235,7 @@ h1 {
   background-image: linear-gradient(cadetblue, #9acfd1);
 }
 
-.footer .footer__text {
+.divf .footer__text {
   margin-bottom: -240px;
   margin-top: -50px;
   margin-right: 800px;
@@ -233,20 +243,26 @@ h1 {
   font-size: 50px;
 }
 
-.footer .formulario {
+.divf .formulario {
   margin-left: 900px;
   margin-top: 129px;
   margin-right: 300px;
 }
 
 @media screen and (max-width: 768px) {
-  .footer {
+  .divf {
     margin-right: -900px;
   }
-  .footer .formulario {
+  .divf .formulario {
     margin-left: 705px;
     margin-right: 50px;
   }
+}
+
+.footer .iconos {
+  margin-bottom: 10px;
+  margin-top: 60px;
+  margin-left: 690px;
 }
 
 /*------------------------------------------------------------------------------------Nosotros--------------------------------------------------------------------------------------------------*/

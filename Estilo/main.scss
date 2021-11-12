@@ -17,6 +17,16 @@ h1 {
 
 }
 
+.logo{
+    width: 130px;
+}
+.logo1{
+    width: 130px;
+    position: relative;
+    right: 15px;
+
+}
+
 .header {
     
     position: fixed;
@@ -252,7 +262,8 @@ h1 {
 }
 
 
-.footer{
+.divf{
+    
     padding-bottom: 20px;
     margin-top:  200px;
     background-color: rgb(154, 207, 209);
@@ -289,6 +300,16 @@ h1 {
     }
 
     
+}
+
+
+.footer{
+
+    .iconos{
+        margin-bottom: 10px;
+        margin-top: 60px;
+        margin-left: 690px;
+    }
 }
 
 /*------------------------------------------------------------------------------------Nosotros--------------------------------------------------------------------------------------------------*/
