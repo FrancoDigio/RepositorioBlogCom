@@ -375,6 +375,10 @@ h1 {
   margin: 50px 600px 50px 600px;
 }
 
+.sectionText h5 {
+  font-weight: 650;
+}
+
 @media screen and (max-width: 768px) {
   .sectionText {
     margin-right: -260px;

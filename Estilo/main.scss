@@ -435,11 +435,17 @@ h1 {
 .sectionText {
      margin: 50px 600px 50px 600px;
 
+     h5 {
+         font-weight: 650;
+     }
+
      @include tablet {
          margin-right: -260px;
          margin-left: 240px ;
      }
 }
+
+
 
 
 
