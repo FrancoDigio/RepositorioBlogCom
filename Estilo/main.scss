@@ -15,6 +15,13 @@ h1 {
 
      }
 
+     @include celu {
+         font-size: 100px;
+         margin-top: 230px;
+         margin-left: 100px;
+         margin-right: -800px;
+     }
+
 }
 
 .logo{
@@ -60,8 +67,13 @@ h1 {
             text-decoration: none;
             
         }
+        @include tablet {
+            font-size: 25px;
+        }
 
-
+        @include celu {
+            font-size: 40px;
+        }
 
     }
 }
@@ -83,7 +95,7 @@ h1 {
         background-color: rgb(250, 250, 250);
     }
 
-     @include tablet {
+    @include tablet {
          margin-left: 260px;
          margin-right: -500px;
 
@@ -93,13 +105,20 @@ h1 {
             width: 1200px;
         }
 
-        .carousel-indicators {
-
+        .carousel-indicators {      
            margin-right: -70px;
         }
 
-        
-     }
+    }
+
+    @include celu {
+
+        margin-left: 10px;
+
+        .carousel-control-next {
+            margin-right: -400px;
+        }
+    }
 
   
 }
@@ -150,6 +169,35 @@ h1 {
            
        }
 
+    }
+
+    @include celu{
+        
+        margin-left: 10px;
+        margin-right: -900px;
+
+
+        .nosotros__img{
+            margin-top: 150px;
+            margin-left: 53px;
+            width: 1100px;
+            height: 1000px;
+        }
+
+        .nosotros__text{
+            
+            margin-top: 650px;
+            margin-left: 30px;
+            margin-right: 30px;
+            font-size: 70px;
+        }
+
+        .bot_mas{
+            border: solid;
+            font-size: 50px;  
+        }
+
+        
     }
 }
 
@@ -221,7 +269,7 @@ h1 {
 
     }
 
-@include tablet {
+    @include tablet {
 
     margin-right: -900px;
     margin-left: 200px;
@@ -242,24 +290,82 @@ h1 {
     .noticiastexto1{
         margin-left: 370px;
         margin-right: 250px;
-        font-size: 25px;
+        font-size: 27px;
     }
 
     .noticiastexto3 {
         margin-left: 370px;
         margin-right: 250px;
         margin-top: -270px;
-        font-size: 25px;
+        font-size: 27px;
     }
 
     .noticiastexto4 {
         margin-left: 370px;
         margin-right: 250px;
         margin-top: -270px;
-        font-size: 25px;
+        font-size: 27px;
     }
-}
+    }
     
+    @include celu{
+    margin-left: 10px;
+    margin-right: -900px;
+
+    h3{
+        font-size: 90px;
+    }
+    h4{
+        font-size: 56px;
+    }
+    .section__img1{
+        width: 1000px;
+        height: 500px;
+    }
+
+    .section__img2{
+        width: 1000px;
+        height: 500px;
+    }
+
+    .section__img3{
+        width: 1000px;
+        height: 500px;
+    }
+
+    .section__img4{
+        width: 1000px;
+        height: 500px;
+    }
+
+    .noticiastexto1{
+        
+        font-size: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 100px;
+    }
+
+    .noticiastexto3{
+        font-size: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 100px;
+    }
+
+
+    .noticiastexto4{
+        font-size: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 100px;
+    }
+
+    .bot_mas_c {
+        border: solid;
+        font-size: 50px;
+    }
+    } 
 
 }
 
@@ -304,6 +410,29 @@ h1 {
         }
     }
 
+    @include celu{
+        
+        
+        .formulario{
+            margin-bottom: 200px;
+            margin-left: -400px;
+            margin-right: 450px;
+            position: relative;
+            top: 280px;
+            left: 400px;
+        }
+
+        .text__form{
+            
+            font-size: 80px;
+            margin-right: 50px;
+        }
+
+        .text_form{
+            font-size: 45px;
+        }
+    }
+
     
 }
 
@@ -323,6 +452,16 @@ h1 {
             margin-left: 465px;
             margin-right: -600px;
             font-size: 25px;
+        }
+    }
+
+    @include celu{
+
+        .iconos{
+            
+            font-size: 45px;
+            margin-left: 10px;
+            margin-right: -900px;
         }
     }
 }
@@ -367,6 +506,20 @@ h1 {
     @include tablet {
 
         margin-right: -940px;
+
+        .textnos{
+            font-size: 35px;
+        }
+
+        .imgnos1{
+            margin-top: -820px;
+            width: 500px;
+            height: 1250px;
+        }
+
+        .imgnos2{
+            height:300px;
+        }
     }
 
 

@@ -13,6 +13,15 @@ h1 {
   }
 }
 
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  h1 {
+    font-size: 100px;
+    margin-top: 230px;
+    margin-left: 100px;
+    margin-right: -800px;
+  }
+}
+
 .logo {
   width: 130px;
 }
@@ -55,6 +64,18 @@ h1 {
   text-decoration: none;
 }
 
+@media screen and (max-width: 768px) {
+  .header nav ul {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .header nav ul {
+    font-size: 40px;
+  }
+}
+
 .main .carousel-inner {
   z-index: -1;
   margin: auto;
@@ -79,6 +100,15 @@ h1 {
   }
   .main .carousel-indicators {
     margin-right: -70px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .main {
+    margin-left: 10px;
+  }
+  .main .carousel-control-next {
+    margin-right: -400px;
   }
 }
 
@@ -125,6 +155,29 @@ h1 {
     margin-left: 750px;
     margin-right: 150px;
     font-size: 33px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .nosotros {
+    margin-left: 10px;
+    margin-right: -900px;
+  }
+  .nosotros .nosotros__img {
+    margin-top: 150px;
+    margin-left: 53px;
+    width: 1100px;
+    height: 1000px;
+  }
+  .nosotros .nosotros__text {
+    margin-top: 650px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 70px;
+  }
+  .nosotros .bot_mas {
+    border: solid;
+    font-size: 50px;
   }
 }
 
@@ -211,19 +264,70 @@ h1 {
   .section .noticiastexto1 {
     margin-left: 370px;
     margin-right: 250px;
-    font-size: 25px;
+    font-size: 27px;
   }
   .section .noticiastexto3 {
     margin-left: 370px;
     margin-right: 250px;
     margin-top: -270px;
-    font-size: 25px;
+    font-size: 27px;
   }
   .section .noticiastexto4 {
     margin-left: 370px;
     margin-right: 250px;
     margin-top: -270px;
-    font-size: 25px;
+    font-size: 27px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .section {
+    margin-left: 10px;
+    margin-right: -900px;
+  }
+  .section h3 {
+    font-size: 90px;
+  }
+  .section h4 {
+    font-size: 56px;
+  }
+  .section .section__img1 {
+    width: 1000px;
+    height: 500px;
+  }
+  .section .section__img2 {
+    width: 1000px;
+    height: 500px;
+  }
+  .section .section__img3 {
+    width: 1000px;
+    height: 500px;
+  }
+  .section .section__img4 {
+    width: 1000px;
+    height: 500px;
+  }
+  .section .noticiastexto1 {
+    font-size: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 100px;
+  }
+  .section .noticiastexto3 {
+    font-size: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 100px;
+  }
+  .section .noticiastexto4 {
+    font-size: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 100px;
+  }
+  .section .bot_mas_c {
+    border: solid;
+    font-size: 50px;
   }
 }
 
@@ -263,6 +367,24 @@ h1 {
   }
 }
 
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .divf .formulario {
+    margin-bottom: 200px;
+    margin-left: -400px;
+    margin-right: 450px;
+    position: relative;
+    top: 280px;
+    left: 400px;
+  }
+  .divf .text__form {
+    font-size: 80px;
+    margin-right: 50px;
+  }
+  .divf .text_form {
+    font-size: 45px;
+  }
+}
+
 .footer .iconos {
   margin-bottom: 10px;
   margin-top: 60px;
@@ -274,6 +396,14 @@ h1 {
     margin-left: 465px;
     margin-right: -600px;
     font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .footer .iconos {
+    font-size: 45px;
+    margin-left: 10px;
+    margin-right: -900px;
   }
 }
 
@@ -315,6 +445,17 @@ h1 {
 @media screen and (max-width: 768px) {
   .mainN {
     margin-right: -940px;
+  }
+  .mainN .textnos {
+    font-size: 35px;
+  }
+  .mainN .imgnos1 {
+    margin-top: -820px;
+    width: 500px;
+    height: 1250px;
+  }
+  .mainN .imgnos2 {
+    height: 300px;
   }
 }
 
