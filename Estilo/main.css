@@ -460,16 +460,20 @@ h1 {
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
-  .mainN {
-    border: solid;
-  }
   .mainN .imgnos1 {
-    margin-top: -5000px;
+    margin-top: -6500px;
+    margin-left: -70px;
+    width: 1050px;
+  }
+  .mainN .imgnos2 {
+    margin-top: 400px;
+    margin-left: -175px;
+    width: 1250px;
   }
   .mainN .textnos {
-    border: solid;
-    margin-right: 10px;
-    margin-left: 0px;
+    margin-top: 1200px;
+    margin-right: 70px;
+    margin-left: -100px;
     font-size: 70px;
   }
 }
@@ -538,6 +542,15 @@ h1 {
   }
 }
 
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .mainComidas .btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 60px;
+  }
+}
+
 /*------------------------------------------------------------------------------------Recetas--------------------------------------------------------------------------------------------------*/
 .mainRecetas .imgRecetas {
   display: block;
@@ -555,6 +568,15 @@ h1 {
   }
 }
 
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .mainRecetas {
+    margin-right: -900px;
+  }
+  .mainRecetas .imgRecetas {
+    width: 1000px;
+  }
+}
+
 .sectionText {
   margin: 50px 600px 50px 600px;
 }
@@ -567,6 +589,17 @@ h1 {
   .sectionText {
     margin-right: -260px;
     margin-left: 240px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .sectionText {
+    margin-right: -800px;
+    margin-left: 110px;
+    font-size: 45px;
+  }
+  .sectionText h5 {
+    font-size: 50px;
   }
 }
 /*# sourceMappingURL=main.css.map */

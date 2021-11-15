@@ -525,16 +525,24 @@ h1 {
     }
 
     @include celu{
-        border: solid;
+        
 
         .imgnos1{
-            margin-top: -5000px;
+            margin-top: -6500px;
+            margin-left: -70px;
+            width: 1050px;
+        }
+
+        .imgnos2{
+            margin-top: 400px;
+            margin-left: -175px;
+            width: 1250px;
         }
         
         .textnos{
-            border: solid;
-            margin-right: 10px;
-            margin-left: 0px;
+            margin-top: 1200px;
+            margin-right: 70px;
+            margin-left: -100px;
             font-size: 70px;
         }
     }
@@ -612,6 +620,16 @@ h1 {
         border: solid;
         margin-right: -900px;
     }
+
+    @include celu{
+
+        .btn{
+            display: flex;
+            font-size: 60px;
+        }
+
+        
+    }
 }
 
 
@@ -633,6 +651,17 @@ h1 {
     @include tablet {
         margin-right: -500px;
     }
+
+    @include celu{
+
+        margin-right: -900px;
+
+
+        .imgRecetas{
+            width: 1000px;
+        }
+        
+    }
 }
 
 
@@ -646,6 +675,17 @@ h1 {
      @include tablet {
          margin-right: -260px;
          margin-left: 240px ;
+     }
+
+     @include celu{
+
+        h5{
+            font-size: 50px;
+        }
+        
+         margin-right: -800px;
+         margin-left: 110px;
+         font-size: 45px;
      }
 }
 
