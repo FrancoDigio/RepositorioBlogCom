@@ -459,6 +459,21 @@ h1 {
   }
 }
 
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .mainN {
+    border: solid;
+  }
+  .mainN .imgnos1 {
+    margin-top: -5000px;
+  }
+  .mainN .textnos {
+    border: solid;
+    margin-right: 10px;
+    margin-left: 0px;
+    font-size: 70px;
+  }
+}
+
 /*------------------------------------------------------------------------------------Comidas--------------------------------------------------------------------------------------------------*/
 .mainComidas #galeria .col-lg-4 {
   margin: 0 !important;

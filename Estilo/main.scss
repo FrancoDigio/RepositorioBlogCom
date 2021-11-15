@@ -439,6 +439,8 @@ h1 {
 
 .footer{
 
+    
+
     .iconos{
         margin-bottom: 10px;
         margin-top: 60px;
@@ -522,7 +524,20 @@ h1 {
         }
     }
 
+    @include celu{
+        border: solid;
 
+        .imgnos1{
+            margin-top: -5000px;
+        }
+        
+        .textnos{
+            border: solid;
+            margin-right: 10px;
+            margin-left: 0px;
+            font-size: 70px;
+        }
+    }
 }
 
 
